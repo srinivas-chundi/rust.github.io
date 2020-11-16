@@ -11,6 +11,44 @@ Few important resourses to start with:
 * **RustUP**
 * **Cargo**
 
-All you need to do is run the following command in any Nix OS
+All you need to do is run the following command in any Nix OS; This will install tools like rust compiler and package manager
 
 > ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
+
+Check the tools
+
+Check the rust compiler
+```
+$ rustc
+Usage: rustc [OPTIONS] INPUT
+
+Options:
+    -h, --help          Display this message
+
+...
+
+```
+
+We generally dont use the compiler `ructc` directly
+we use the package manager tool `cargo` to build, test, and release the rust projects
+```
+$ cargo
+Rust's package manager
+
+USAGE:
+    cargo [+toolchain] [OPTIONS] [SUBCOMMAND]
+
+OPTIONS
+...
+```
+
+Update the Rust tool chain
+```
+$ rustup update
+info: syncing channel updates for 'stable-x86_64-unknown-linux-gnu'
+info: checking for self-updates
+
+  stable-x86_64-unknown-linux-gnu unchanged - rustc 1.47.0 (18bf6b4f0 2020-10-07)
+
+info: cleaning up downloads & tmp directories
+```
