@@ -68,20 +68,20 @@ We generally dont use the compiler `ructc` directly;
 * Create projects
 
 ```
-cargo new project_hello`
-cd project_hello/`
+cargo new project_hello
+cd project_hello/
 ```
 
-* check the code and manage packages
+* Check the code for error and warning without build
 > `cargo check`
 
-* build the code
+* Build the code
 > `cargo build`
 
-* test the code
+* Test the code
 > `cargo test`
 
-* also run the code
+* And Run the code
 ```
 $ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.01s
@@ -89,3 +89,8 @@ $ cargo run
 Hello, world!
 $
 ```
+
+* Release the code with optimizaitons for production
+> `cargo build --release`
+
+### END
