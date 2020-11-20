@@ -32,7 +32,6 @@ Options:
 
 ```
 
-We generally dont use the compiler `ructc` directly; we use the package manager tool `cargo` to build, test, and release the rust projects
 
 * Check Package manager **Cargo**
 
@@ -57,4 +56,36 @@ info: checking for self-updates
   stable-x86_64-unknown-linux-gnu unchanged - rustc 1.47.0 (18bf6b4f0 2020-10-07)
 
 info: cleaning up downloads & tmp directories
+```
+
+### Now the Rust Tool chain is ready
+* `rustc` is a compiler
+* `cargo` is a package manager
+
+We generally dont use the compiler `ructc` directly; 
+
+**But we use cargo for all tasks**
+* Create projects
+
+```
+cargo new project_hello`
+cd project_hello/`
+```
+
+* check the code and manage packages
+> `cargo check`
+
+* build the code
+> `cargo build`
+
+* test the code
+> `cargo test`
+
+* also run the code
+```
+$ cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/project_hello`
+Hello, world!
+$
 ```
