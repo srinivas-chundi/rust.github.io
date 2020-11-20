@@ -93,4 +93,6 @@ $
 * Release the code with optimizaitons for production
 > `cargo build --release`
 
-### END
+### Next Steps
+Goto slides.md for tutorial
+
