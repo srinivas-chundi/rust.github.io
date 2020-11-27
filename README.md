@@ -1,3 +1,3 @@
-# Quick Start Guide for Rust
+# Rust Workshop
 > Goto https://github.com/srinivas-chundi/ruster/wiki/Home
 
