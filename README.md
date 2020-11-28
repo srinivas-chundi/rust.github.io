@@ -1,3 +1,2 @@
 # Rust Workshop
-> Goto https://github.com/srinivas-chundi/ruster/wiki/Home
-
+> Goto https://github.com/srinivas-chundi/rust.github.io/wiki/Home
